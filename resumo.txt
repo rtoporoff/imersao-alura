@@ -1,0 +1,4 @@
+HTML = esqueleto
+CSS = Corpo / Estilo
+JavaScript = Nosso cérebro, onde vamos fazer as coisas
+

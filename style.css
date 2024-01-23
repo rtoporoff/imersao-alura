@@ -1,0 +1,181 @@
+body {
+    background-color: #000;
+}
+
+.sidebar {
+    /* aconteça o que acontecer, isso ficará preso na página (FIXED) */
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px; /* em todos os eixos, ele terá o mesmo valor, já que não especificamos os lados */
+    width: 300px;
+}
+
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    /* padding dá um espaçamento */
+    padding: 16px 0 0 16px; /* Em cima, direita, baixo, esquerda */
+}
+
+.sidebar__navigation .logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+/* a tag img que está dentro da div logo. se colocar apenas "img", todas as imagens serão alteradas */
+.logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar nav ul li {
+    /* quando se usa dois. o primeiro é em cima e embaixo. o segundo direita e esquerda */
+    padding: 10px 0;
+}
+
+/* a está dentro da li, li que está dentro da ul, que está dentro da nav e que está dentro da sidebar */
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    /* adicionar um peso na fonte. deixar ela fininha, normal, bold */
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.biblioteca {
+    background-color: #121212;
+    border-radius: 8px;
+    /* display flex -> alterar posicionamento dos objetivos na tela */
+    display: flex;
+    /* justify content -> deixar um posicionamento justificado dos valores */
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.biblioteca .biblioteca__conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.biblioteca .biblioteca__botao {
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
+
+.biblioteca .biblioteca__botao .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    /* padding right para criar um espaçamento entre ele e o próximo elemento */
+    padding-right: 8px;
+}
+
+.biblioteca .biblioteca__conteudo .fa-plus {
+    margin: 24px 10px;
+}
+
+.section-playlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* GAP para definir o tamanho do espaço entre elementos */
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+.section-playlist .section-playlist__conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist__conteudo .text {
+    padding-bottom: 14px;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+
+.section-playlist__conteudo .title {
+    font-weight: 700;
+}
+
+.section-playlist__conteudo .subtitle {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist__conteudo .section-playlist__botao {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0;
+    width: 113px;
+}
+
+.sidebar .cookies {
+    margin: 25px 20px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar .cookies a {
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+/* criação de uma pseudo classe com o elemento HOVER. não representa o elemento, mas sim o estado dela. como se fosse uma ANIMAÇÃO */
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+}
+
+.languages .languages__botao {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+}

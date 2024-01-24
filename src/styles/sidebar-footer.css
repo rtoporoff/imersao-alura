@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -48,7 +49,6 @@ body {
     /* adicionar um peso na fonte. deixar ela fininha, normal, bold */
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .biblioteca {
@@ -79,7 +79,6 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -121,7 +120,6 @@ body {
 .section-playlist__conteudo .text {
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__conteudo .title {
@@ -141,7 +139,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -152,7 +149,6 @@ body {
 
 .sidebar .cookies {
     margin: 25px 20px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar .cookies a {

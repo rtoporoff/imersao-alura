@@ -135,7 +135,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 
 /* PLAYLIST */
 .playlist-container {
-  height: 68vh;
+  height: 76vh;
   padding-top: 16px;
   margin: 10px;
   border-radius: 10px;
@@ -161,7 +161,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 
 /* SCROLL */
 .offer__scroll-container {
-  max-height: 43vh;
+  max-height: 60vh;
   margin: 24px;
   overflow-y: auto;
 }
